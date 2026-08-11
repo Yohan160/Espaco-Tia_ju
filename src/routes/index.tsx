@@ -36,7 +36,7 @@ function Index() {
       {/* HERO */}
       <section className="warm-sky relative overflow-hidden">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-14 md:py-20 lg:grid-cols-2 lg:gap-14">
-          <div>
+          <div className="flex flex-col items-center text-center">
             <span className="eyebrow reveal">Mongaguá · São Paulo</span>
             <h1 className="reveal mt-5 text-[2.6rem] font-extrabold leading-[1.05] text-ink sm:text-6xl">
               ONG <span className="text-primary">Espaço Tia Jú</span>
@@ -44,7 +44,7 @@ function Index() {
             <p className="reveal mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
               {quemSomos}
             </p>
-            <div className="reveal mt-8 flex flex-wrap gap-3">
+            <div className="reveal mt-8 flex flex-wrap justify-center gap-3">
               <Link to="/sobre-nos" className="btn-base btn-primary">
                 Conheça mais sobre nós
               </Link>
